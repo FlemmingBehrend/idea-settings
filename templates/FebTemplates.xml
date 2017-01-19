@@ -2,6 +2,7 @@
   <template name="cl" value="console.log('$INFO$', $INFO$);" description="console log statement" toReformat="false" toShortenFQNames="true">
     <variable name="INFO" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="TypeScript" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
