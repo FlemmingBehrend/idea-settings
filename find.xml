@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'auction-api'" />
-    <option name="defaultScopeName" value="Project 'auction-api'" />
-    <option name="SEARCH_SCOPE" value="Project 'auction-api'" />
+    <option name="customScope" value="File '.../wallaby.js - [wallaby-typescript]'" />
+    <option name="defaultScopeName" value="File '.../wallaby.js - [wallaby-typescript]'" />
+    <option name="SEARCH_SCOPE" value="File '.../wallaby.js - [wallaby-typescript]'" />
   </component>
 </application>
