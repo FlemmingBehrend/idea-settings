@@ -2,6 +2,7 @@
   <template name="cl" value="console.log('$INFO$', $INFO$);" description="console log statement" toReformat="false" toShortenFQNames="true">
     <variable name="INFO" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="TypeScript" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
@@ -9,23 +10,27 @@
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="de" value="describe('$DESCRIPTION$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine describe block" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="be" value="beforeEach(() =&gt; {&#10;    $END$&#10;});" description="Jasmine beforeEach block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="itshi" value="it('should $DESCRIPTION', inject([$SERVICE$], (service: $SERVICE$) =&gt; {&#10;    $END$&#10;});" description="Jasmine it block with inject support" toReformat="false" toShortenFQNames="true">
     <variable name="SERVICE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
