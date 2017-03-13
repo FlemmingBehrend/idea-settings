@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="setup" value="@org.junit.Before&#10;public void setup() {&#10;    $END$   &#10;}" description="Creates a @Before method with Java JUnit" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
