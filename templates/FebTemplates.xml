@@ -45,15 +45,4 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="test" value="@org.junit.Test&#10;public void $NAME$() {&#10;    $END$&#10;}" description="test block for JUnit" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="setup" value="@org.junit.Before&#10;public void setup() {&#10;    $END$   &#10;}" description="creates @before method" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
 </templateSet>
