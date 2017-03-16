@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[NemidProxy] - ...\src\main\java\dk\topdanmark\aws\logon\nemid\ValidateXmldsigResource.java'" />
-    <option name="defaultScopeName" value="File '[NemidProxy] - ...\src\main\java\dk\topdanmark\aws\logon\nemid\ValidateXmldsigResource.java'" />
-    <option name="SEARCH_SCOPE" value="File '[NemidProxy] - ...\src\main\java\dk\topdanmark\aws\logon\nemid\ValidateXmldsigResource.java'" />
+    <option name="customScope" value="Project 'NemidProxy'" />
+    <option name="defaultScopeName" value="Project 'NemidProxy'" />
+    <option name="SEARCH_SCOPE" value="Project 'NemidProxy'" />
   </component>
 </application>
