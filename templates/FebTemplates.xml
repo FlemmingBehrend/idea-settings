@@ -33,4 +33,16 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ef" value="($PARAMS$) =&gt; {&#10;    $END$&#10;}" description="es6 function" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="iife" value="(function() {&#10;    'use strict';&#10;&#10;    $END$&#10;&#10;})();" description="Creates an immediately Invoked function expression" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
