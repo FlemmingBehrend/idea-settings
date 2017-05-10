@@ -45,4 +45,20 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="after" value="@org.junit.After&#10;public void after() {&#10;    $END$   &#10;}" description="Creates an after method in junit" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="before" value="@org.junit.Before&#10;public void setup() {&#10;    $END$   &#10;}" description="Creates a before method in junit" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="test" value="@org.junit.Test&#10;public void $NAME$() {&#10;    $END$&#10;}" description="Creates a test block for junit" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
