@@ -1,5 +1,5 @@
 <templateSet group="FebTemplates">
-  <template name="cl" value="console.log('$INFO$', $INFO$);" description="console log statement" toReformat="false" toShortenFQNames="true">
+  <template name="cla" value="console.log('$INFO$', $INFO$);" description="console log statement with arguments" toReformat="false" toShortenFQNames="true">
     <variable name="INFO" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
@@ -59,6 +59,13 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log('$INFO$');" description="console log statement" toReformat="false" toShortenFQNames="true">
+    <variable name="INFO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
