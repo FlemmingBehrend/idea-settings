@@ -68,4 +68,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="re" value="const $NAME$ = require('$NAME$');&#10;$END$" description="require statement" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
