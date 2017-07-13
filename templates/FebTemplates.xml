@@ -75,4 +75,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="itsha" value="it('should $DESCRIPTION$', done =&gt; {&#10;    $END$&#10;});" description="Jasmine it should test spec (async)" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
