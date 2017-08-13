@@ -1,6 +1,7 @@
 <templateSet group="FebTemplates">
-  <template name="cl" value="console.log('$INFO$', $INFO$);" description="console log statement" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="console.log('$INFO$'$VARS$);&#10;$END$" description="console log statement" toReformat="false" toShortenFQNames="true">
     <variable name="INFO" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
