@@ -62,4 +62,22 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="!Joinml" value="!Join&#10;  - '$DELIMITER$'&#10;  - - $STRING1$&#10;  - - $STRING2$&#10;  - - $STRING3$" description="AWS Cloudformation join (Multiple Lines) template YAML" toReformat="false" toShortenFQNames="true">
+    <variable name="DELIMITER" expression="" defaultValue="DELIMITER" alwaysStopAt="true" />
+    <variable name="STRING1" expression="" defaultValue="STRING" alwaysStopAt="true" />
+    <variable name="STRING2" expression="" defaultValue="STRING" alwaysStopAt="true" />
+    <variable name="STRING3" expression="" defaultValue="STRING" alwaysStopAt="true" />
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="true" />
+    </context>
+  </template>
+  <template name="!Join" value="!Join ['$DELIMITER$', ['$STRING1$','$STRING2$','$STRING3$']]" description="AWS Cloudformation join (Single line) template YAML" toReformat="false" toShortenFQNames="true">
+    <variable name="DELIMITER" expression="" defaultValue="DELIMITER" alwaysStopAt="true" />
+    <variable name="STRING1" expression="" defaultValue="STRING" alwaysStopAt="true" />
+    <variable name="STRING2" expression="" defaultValue="STRING" alwaysStopAt="true" />
+    <variable name="STRING3" expression="" defaultValue="STRING" alwaysStopAt="true" />
+    <context>
+      <option name="AWS_CLOUD_FORMATION_YAML" value="true" />
+    </context>
+  </template>
 </templateSet>
