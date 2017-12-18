@@ -71,7 +71,7 @@
       <option name="AWS_CLOUD_FORMATION_YAML" value="true" />
     </context>
   </template>
-  <template name="!Join" value="!Join ['$DELIMITER$', ['$STRING1$','$STRING2$','$STRING3$']]" description="AWS Cloudformation join (Single line) template YAML" toReformat="false" toShortenFQNames="true">
+  <template name="!Join" value="!Join ['$DELIMITER$',['$STRING1$','$STRING2$','$STRING3$']]" description="AWS Cloudformation join (Single line) template YAML" toReformat="false" toShortenFQNames="true">
     <variable name="DELIMITER" expression="" defaultValue="DELIMITER" alwaysStopAt="true" />
     <variable name="STRING1" expression="" defaultValue="STRING" alwaysStopAt="true" />
     <variable name="STRING2" expression="" defaultValue="STRING" alwaysStopAt="true" />
