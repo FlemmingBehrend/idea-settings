@@ -62,10 +62,4 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="w" value="/*?$END$*/" description="Wallaby debug comment" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
 </templateSet>
