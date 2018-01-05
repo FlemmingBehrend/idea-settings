@@ -7,38 +7,37 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="itsh" value="it('should $DESCRIPTION$', () =&gt; {&#10;    $END$&#10;});" description="Test spec - javascript" toReformat="false" toShortenFQNames="true">
+  <template name="itsh" value="it('should $DESCRIPTION$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine it should test spec" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="de" value="describe('$DESCRIPTION$', () =&gt; {&#10;    $END$&#10;});" description="Describe block - javascript" toReformat="false" toShortenFQNames="true">
+  <template name="de" value="describe('$DESCRIPTION$', () =&gt; {&#10;    $END$&#10;});" description="Jasmine describe block" toReformat="false" toShortenFQNames="true">
     <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="be" value="beforeEach(() =&gt; {&#10;    $END$&#10;});" description="BeforeEach block - javascript" toReformat="false" toShortenFQNames="true">
+  <template name="be" value="beforeEach(() =&gt; {&#10;    $END$&#10;});" description="Jasmine beforeEach block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="itshi" value="it('should $DESCRIPTION', inject([$SERVICE$], (service: $SERVICE$) =&gt; {&#10;    $END$&#10;});" description="Test spec with inject support - javascript" toReformat="false" toShortenFQNames="true">
+  <template name="itshi" value="it('should $DESCRIPTION', inject([$SERVICE$], (service: $SERVICE$) =&gt; {&#10;    $END$&#10;});" description="Jasmine it block with inject support" toReformat="false" toShortenFQNames="true">
     <variable name="SERVICE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_STATEMENT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="func" value="($PARAMS$) =&gt; {&#10;    $END$&#10;}" description="es6 function" toReformat="false" toShortenFQNames="true">
+  <template name="ef" value="($PARAMS$) =&gt; {&#10;    $END$&#10;}" description="es6 function" toReformat="false" toShortenFQNames="true">
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JS_EXPRESSION" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="iife" value="(function() {&#10;    'use strict';&#10;&#10;    $END$&#10;&#10;})();" description="Creates an immediately Invoked function expression" toReformat="false" toShortenFQNames="true">
@@ -61,24 +60,6 @@
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_DECLARATION" value="true" />
-    </context>
-  </template>
-  <template name="!Joinml" value="!Join&#10;  - '$DELIMITER$'&#10;  - - $STRING1$&#10;  - - $STRING2$&#10;  - - $STRING3$" description="AWS Cloudformation join (Multiple Lines) template YAML" toReformat="false" toShortenFQNames="true">
-    <variable name="DELIMITER" expression="" defaultValue="DELIMITER" alwaysStopAt="true" />
-    <variable name="STRING1" expression="" defaultValue="STRING" alwaysStopAt="true" />
-    <variable name="STRING2" expression="" defaultValue="STRING" alwaysStopAt="true" />
-    <variable name="STRING3" expression="" defaultValue="STRING" alwaysStopAt="true" />
-    <context>
-      <option name="AWS_CLOUD_FORMATION_YAML" value="true" />
-    </context>
-  </template>
-  <template name="!Join" value="!Join ['$DELIMITER$',['$STRING1$','$STRING2$','$STRING3$']]" description="AWS Cloudformation join (Single line) template YAML" toReformat="false" toShortenFQNames="true">
-    <variable name="DELIMITER" expression="" defaultValue="DELIMITER" alwaysStopAt="true" />
-    <variable name="STRING1" expression="" defaultValue="STRING" alwaysStopAt="true" />
-    <variable name="STRING2" expression="" defaultValue="STRING" alwaysStopAt="true" />
-    <variable name="STRING3" expression="" defaultValue="STRING" alwaysStopAt="true" />
-    <context>
-      <option name="AWS_CLOUD_FORMATION_YAML" value="true" />
     </context>
   </template>
   <template name="ww" value="/* ? $.$END$ */" description="wallby comment" toReformat="false" toShortenFQNames="true">
